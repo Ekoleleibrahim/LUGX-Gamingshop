@@ -1,0 +1,167 @@
+/* ELEMENT1 PRODUCT */
+
+.element1-product
+{
+    padding: 100px 100px 80px;
+    background:  rgba(185, 185, 185, 0.4);
+    border-radius: 0 0 200px 150px;
+}
+
+.element1-product h1
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.element1-product .para1
+{
+    text-transform: capitalize;
+}
+
+.element1-product h1,.element1-product .para1
+{
+    text-align: center;
+    color: white;
+}
+
+.para1 a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTION RELATED GAMES */
+
+#section-related_games
+{
+    padding: 100px 100px 50px;
+}
+
+#section-related_games h2
+{
+    margin-top: 30px;
+}
+
+/* conteneur-call-duty */
+
+.conteneur-call-duty
+{
+    margin-top: 100px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 400px;
+    text-align: justify;
+}
+
+.image-duty
+{
+    width:200px;
+    
+    
+}
+
+.image-duty img
+{
+    width: 500px;
+    height: 600px;
+}
+
+.duty-content
+{
+    width: 700px;
+    margin-top: 40px;
+}
+
+.duty-content h2
+{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.template-description
+{
+    line-height: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+form
+{
+    margin-bottom: 80px;
+}
+
+form input
+{
+    width: 70px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+input[type='number']
+{
+    height: 40px;
+    position: relative;
+    top: 25px;
+    margin-right: 20px;
+}
+
+.line-height
+{
+    line-height: 40px;
+}
+
+/* SECTION DESCRIPTION */
+
+.description-reviews
+{
+    width: 1200px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: rgba(221, 221, 221, 0.600);
+    line-height: 40px;
+    border-top: 1px solid grey;
+}
+
+@media screen and (max-width:996px) {
+    .element1-product
+    {
+            padding: 50px;
+            border-radius: 0 0 100px 100px;
+    }
+
+    .conteneur-call-duty
+    {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        gap: 10px;
+    
+    }
+
+        .image-duty
+    {
+        display: none;
+        width:200px;
+        
+    }
+
+    .duty-content
+    {
+        width: 500px;
+        margin-top: 40px;
+    }
+
+    .description-reviews
+    {
+        width: 50%;
+    }
+
+}
